@@ -11,8 +11,16 @@
         <img border="0" src="tctflogo.jpg" width="200" height="112">
         <!-- /logo -->
         <!--beta-->
-        <a href="index.html"><font color="Black " size="4">主页</font></a>
-        <a href="download..html"><font color="Black " size="4">下载</font></a>
+        <button type="button" onclick="index()">主页</button>
+        <button type="button" onclick="download()">下载</button>
+        <script>
+        function index(){
+        location.href = "index.html"
+        }
+        function download(){
+        location.href = "download.html"
+        }
+        </script>
         <!-- headline -->
         <h1>
             <font color="LimeGreen ">Welcome to TCTF!</font>
